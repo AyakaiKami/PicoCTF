@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logon_WR</title>
+</head>
+<body>
+    <div style="display: flex;flex-direction: column;align-items:center;
+    justify-content: center;font-size: large">
+        <h1>Description</h1>
+<a>The factory is hiding things from all of its users. Can you login as Joe and find what they've been looking at? https://jupiter.challenges.picoctf.org/problem/15796/ (link) or http://jupiter.challenges.picoctf.org:15796</a>
+        <br>
+        <div style="display: flex;flex-direction: column;align-items:center;
+        justify-content: center;font-size: larger;">
+        The login page looks like this:
+        <img src="wr1.png">    
+        I tried to login as "Joe" with password "1234" and got this:
+        <img src="wr2.png">
+        So i ll try to login as somebody else
+        <img src="wr3.png">
+        This worked.Now let's look at the cookies.
+        <img src="wr4.png">
+        Let's change the admin value to "True".
+        <img src="wr5.png">
+        This worked and we got the flag.
+        <h2>Flag : picoCTF{th3_c0nsp1r4cy_l1v3s_6edb3f5f}</h2>
+        </div>
+    </div>
+</body>
+</html>

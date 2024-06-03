@@ -1,0 +1,13 @@
+Description
+Kishor Balan tipped us off that the following code may need inspection: 
+https://jupiter.challenges.picoctf.org/problem/44924/ (link) or 
+http://jupiter.challenges.picoctf.org:44924
+
+
+The flag is split into 3 strings.If you press F12 and look through the sources,in the html page 
+you will find the first part "picoCTF{tru3_d3"
+in the mycsss.css you will find the second part "t3ct1ve_0r_ju5t"
+and in the myjs.js file you will find the 3-rd part "_lucky?f10be399}"
+
+
+Flag : picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?f10be399}
