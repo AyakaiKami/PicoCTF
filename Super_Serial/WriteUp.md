@@ -1,6 +1,6 @@
 # Platform: PicoCTF
 # Name: Super_Serial
-
+## Type : Web
 Following the link we get to a login page.
 
 ![LoginPage](img1.png)
