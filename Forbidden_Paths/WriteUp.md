@@ -1,5 +1,6 @@
 # Platform: PicoCTF
 # Name: Forbidden_Paths
+## Type: Web
 
 Following the link we get to this page:
 

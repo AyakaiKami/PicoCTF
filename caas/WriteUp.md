@@ -1,5 +1,6 @@
 # Platform: PicoCTF
 # Name: caas
+## Type: Web
 
 Following the link we get to this page:
 
